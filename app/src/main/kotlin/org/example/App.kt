@@ -12,12 +12,12 @@ class App {
 }
 
 fun main() {
-    val nombre:String:"juan"
-    var edad=16
+    val nombre: String = "juan"
+    var edad: Int = 16
 
 
     println("hola $nombre")
-    println("edad $años")
+    println("$edad años")
 
     println(App().greeting)
 }
